@@ -1,0 +1,127 @@
+﻿[
+	{
+		"eword": "arian",
+		"hword": "में विश्वास रखनेवाला",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "eared",
+		"hword": "कानवाला",
+		"egrammar": "Adjective"
+	},
+	{
+		"eword": "ial",
+		"hword": "ईय",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "ian",
+		"hword": "प्रत्यय",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "iana",
+		"hword": "का",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "ibid",
+		"hword": "उसी स्थान पर",
+		"egrammar": "Adverb"
+	},
+	{
+		"eword": "ling",
+		"hword": "छोटा",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "ling",
+		"hword": "कार्य विशेष के लिए कोई व्यक्ति",
+		"egrammar": "Suffix"
+	},
+	{
+		"eword": "meal",
+		"hword": "अनाज का चूरा",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "om",
+		"hword": "ॐ",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "small wooden plate",
+		"hword": "तख्ती",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "kit",
+		"hword": "सभी पुर्ज़ों का सेट",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "inauguration",
+		"hword": "उद्घाटन,शुभारम्भ .",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "unauthorised",
+		"hword": "अनधिकृत",
+		"egrammar": "Noun"
+	},{
+		"eword": "offspring",
+		"hword": "प्रजा",
+		"egrammar": "noun"
+	},
+	{
+		"eword": "0",
+		"hword": "०",
+		"egrammar": "Noun"
+	},
+	
+	{
+		"eword": "1",
+		"hword": "१",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "2",
+		"hword": "२",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "3",
+		"hword": "३",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "4",
+		"hword": "४",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "5",
+		"hword": "५",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "6",
+		"hword": "६",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "7",
+		"hword": "७",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "8",
+		"hword": "८",
+		"egrammar": "Noun"
+	},
+	{
+		"eword": "9",
+		"hword": "९",
+		"egrammar": "Noun"
+	}
+]

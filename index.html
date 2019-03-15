@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Json to Firebase</title>
+  <meta name="viewporp" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <div id="text"></div>
+  <table style="border: 2px solid black">
+    <tr>
+      <th>Id</th>
+      <th>English</th>
+      <th>Hindi</th>
+      <th>Grammer</th>
+    </tr>
+  </table>
+
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-firestore.js"></script>
+  <script src="jquery-3.3.1.development.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "<Your apiKey>", //Please fill this Data by adding a webapp in Firebase
+      authDomain: "<Your authDomain>",
+      databaseURL: "<Your Firebase Database URL>",
+      projectId: "<Your Project Id>",
+      storageBucket: "<Your Storage Bucket>",
+      messagingSenderId: "<Messenging Sender Id>"
+    };
+    firebase.initializeApp(config);
+
+    var filename = "Data.json"; //json File Name
+
+    var db = firebase.firestore();
+    $(document).ready(function () {
+      $.ajax({
+        url: filename,
+        dataType: "json",
+        success: function (data) {
+          $(data).each(function (index, value) {
+            var record =
+              "<tr><td>" +
+              (index + 1) +
+              "</td><td>" +
+              value.eword + //Column 1
+              "</td><td>" +
+              value.hword + //Column 2
+              "</td><td>" +
+              value.egrammar + //Column 3
+              "</td></tr>";
+            $("table").append(record);
+            if (value.eword.length == 0 || value.hword.length == 0) {
+              console.log("String Empthy");
+            } else {
+              db.collection("<Collection name>")
+                .add({
+                  english: value.eword, //Document Field1
+                  hindi: value.hword, //Document Field2
+                  searchkey: value.eword.charAt(0).toUpperCase() //Document Field3
+                })
+                .then(function (docRef) {
+                  console.log("Document Id", docRef.id);
+                })
+                .catch(function (error) {
+                  console.log("Error adding Docuemnt", error);
+                });
+            }
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
