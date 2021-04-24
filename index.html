@@ -1,11 +1,14 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Json to Firebase</title>
-  <meta name="viewporp" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON to Firebase</title>
+  <link rel="shortcut icon" href="https://kingtechnologies.in/assests/images/logo.png" type="image/x-icon" />
 </head>
+
 <body>
   <div id="text"></div>
   <table style="border: 2px solid black">
@@ -13,59 +16,59 @@
       <th>Id</th>
       <th>English</th>
       <th>Hindi</th>
-      <th>Grammer</th>
+      <th>Grammar</th>
     </tr>
   </table>
 
-  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-firestore.js"></script>
-  <script src="jquery-3.3.1.development.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+  <script src="./jquery.js"></script>
   <script>
     // Initialize Firebase
-    var config = {
+    let config = {
       apiKey: "<Your apiKey>", //Please fill this Data by adding a webapp in Firebase
       authDomain: "<Your authDomain>",
       databaseURL: "<Your Firebase Database URL>",
       projectId: "<Your Project Id>",
       storageBucket: "<Your Storage Bucket>",
-      messagingSenderId: "<Messenging Sender Id>"
+      messagingSenderId: "<Messaging Sender Id>"
     };
     firebase.initializeApp(config);
 
-    var filename = "Data.json"; //json File Name
+    let filename = "Data.json"; //json File Name
 
-    var db = firebase.firestore();
+    let db = firebase.firestore();
     $(document).ready(function () {
       $.ajax({
         url: filename,
         dataType: "json",
         success: function (data) {
           $(data).each(function (index, value) {
-            var record =
+            let record =
               "<tr><td>" +
               (index + 1) +
               "</td><td>" +
-              value.eword + //Column 1
+              value.englishWord + //Column 1
               "</td><td>" +
-              value.hword + //Column 2
+              value.hindiWord + //Column 2
               "</td><td>" +
-              value.egrammar + //Column 3
+              value.englishGrammar + //Column 3
               "</td></tr>";
             $("table").append(record);
-            if (value.eword.length == 0 || value.hword.length == 0) {
-              console.log("String Empthy");
+            if (value.englishWord.length == 0 || value.hindiWord.length == 0) {
+              console.log("String Empty");
             } else {
               db.collection("<Collection name>")
                 .add({
-                  english: value.eword, //Document Field1
-                  hindi: value.hword, //Document Field2
-                  searchkey: value.eword.charAt(0).toUpperCase() //Document Field3
+                  english: value.englishWord, //Document Field1
+                  hindi: value.hindiWord, //Document Field2
+                  searchKey: value.englishWord.charAt(0).toUpperCase() //Document Field3
                 })
                 .then(function (docRef) {
                   console.log("Document Id", docRef.id);
                 })
                 .catch(function (error) {
-                  console.log("Error adding Docuemnt", error);
+                  console.log("Error adding Document", error);
                 });
             }
           });
@@ -74,4 +77,5 @@
     });
   </script>
 </body>
+
 </html>

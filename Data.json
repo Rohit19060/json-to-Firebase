@@ -1,127 +1,127 @@
 ﻿[
 	{
-		"eword": "arian",
-		"hword": "में विश्वास रखनेवाला",
-		"egrammar": "Suffix"
+		"englishWord": "arian",
+		"hindiWord": "में विश्वास रखनेवाला",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "eared",
-		"hword": "कानवाला",
-		"egrammar": "Adjective"
+		"englishWord": "eared",
+		"hindiWord": "कानवाला",
+		"englishGrammar": "Adjective"
 	},
 	{
-		"eword": "ial",
-		"hword": "ईय",
-		"egrammar": "Suffix"
+		"englishWord": "ial",
+		"hindiWord": "ईय",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "ian",
-		"hword": "प्रत्यय",
-		"egrammar": "Suffix"
+		"englishWord": "ian",
+		"hindiWord": "प्रत्यय",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "iana",
-		"hword": "का",
-		"egrammar": "Suffix"
+		"englishWord": "iana",
+		"hindiWord": "का",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "ibid",
-		"hword": "उसी स्थान पर",
-		"egrammar": "Adverb"
+		"englishWord": "ibid",
+		"hindiWord": "उसी स्थान पर",
+		"englishGrammar": "Adverb"
 	},
 	{
-		"eword": "ling",
-		"hword": "छोटा",
-		"egrammar": "Suffix"
+		"englishWord": "ling",
+		"hindiWord": "छोटा",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "ling",
-		"hword": "कार्य विशेष के लिए कोई व्यक्ति",
-		"egrammar": "Suffix"
+		"englishWord": "ling",
+		"hindiWord": "कार्य विशेष के लिए कोई व्यक्ति",
+		"englishGrammar": "Suffix"
 	},
 	{
-		"eword": "meal",
-		"hword": "अनाज का चूरा",
-		"egrammar": "Noun"
+		"englishWord": "meal",
+		"hindiWord": "अनाज का चूरा",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "om",
-		"hword": "ॐ",
-		"egrammar": "Noun"
+		"englishWord": "om",
+		"hindiWord": "ॐ",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "small wooden plate",
-		"hword": "तख्ती",
-		"egrammar": "Noun"
+		"englishWord": "small wooden plate",
+		"hindiWord": "तख्ती",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "kit",
-		"hword": "सभी पुर्ज़ों का सेट",
-		"egrammar": "Noun"
+		"englishWord": "kit",
+		"hindiWord": "सभी पुर्ज़ों का सेट",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "inauguration",
-		"hword": "उद्घाटन,शुभारम्भ .",
-		"egrammar": "Noun"
+		"englishWord": "inauguration",
+		"hindiWord": "उद्घाटन,शुभारम्भ .",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "unauthorised",
-		"hword": "अनधिकृत",
-		"egrammar": "Noun"
-	},{
-		"eword": "offspring",
-		"hword": "प्रजा",
-		"egrammar": "noun"
+		"englishWord": "unauthorised",
+		"hindiWord": "अनधिकृत",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "0",
-		"hword": "०",
-		"egrammar": "Noun"
-	},
-	
-	{
-		"eword": "1",
-		"hword": "१",
-		"egrammar": "Noun"
+		"englishWord": "offspring",
+		"hindiWord": "प्रजा",
+		"englishGrammar": "noun"
 	},
 	{
-		"eword": "2",
-		"hword": "२",
-		"egrammar": "Noun"
+		"englishWord": "0",
+		"hindiWord": "०",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "3",
-		"hword": "३",
-		"egrammar": "Noun"
+		"englishWord": "1",
+		"hindiWord": "१",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "4",
-		"hword": "४",
-		"egrammar": "Noun"
+		"englishWord": "2",
+		"hindiWord": "२",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "5",
-		"hword": "५",
-		"egrammar": "Noun"
+		"englishWord": "3",
+		"hindiWord": "३",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "6",
-		"hword": "६",
-		"egrammar": "Noun"
+		"englishWord": "4",
+		"hindiWord": "४",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "7",
-		"hword": "७",
-		"egrammar": "Noun"
+		"englishWord": "5",
+		"hindiWord": "५",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "8",
-		"hword": "८",
-		"egrammar": "Noun"
+		"englishWord": "6",
+		"hindiWord": "६",
+		"englishGrammar": "Noun"
 	},
 	{
-		"eword": "9",
-		"hword": "९",
-		"egrammar": "Noun"
+		"englishWord": "7",
+		"hindiWord": "७",
+		"englishGrammar": "Noun"
+	},
+	{
+		"englishWord": "8",
+		"hindiWord": "८",
+		"englishGrammar": "Noun"
+	},
+	{
+		"englishWord": "9",
+		"hindiWord": "९",
+		"englishGrammar": "Noun"
 	}
 ]
