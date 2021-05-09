@@ -1,16 +1,77 @@
-<h1 align="center">JSON to Firebase</h1>
-
+<p align="center">
+  <a href="https://github.com/Rohit19060/JSON-to-Firebase" title="JSON to Firebase">
+    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="JSON to Firebase" />
+  </a>
+</p>
+<h1 align="center">🌟 JSON to Firebase 🌟</h1>
 <p align="center">API for Uploading Json Data to Firebase</p>
 
-## Links
+<p align="center">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/blob/master/LICENSE" target="_blank" title="License">
+<img src="https://img.shields.io/github/license/Rohit19060/JSON-to-Firebase?label=License&logo=Github&style=flat-square" alt="JSON to Firebase License" />
+</a>
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/fork" target="_blank" title="Forks">
+<img src="https://img.shields.io/github/forks/Rohit19060/JSON-to-Firebase?label=Forks&logo=Github&style=flat-square" alt="JSON to Firebase Forks"/>
+</a>
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/stargazers" target="_blank" title="Stars">
+<img src="https://img.shields.io/github/stars/Rohit19060/JSON-to-Firebase?label=Stars&logo=Github&style=flat-square" alt="JSON to Firebase Stars"/>
+</a>
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/issues" target="_blank" title="Issues">
+<img src="https://img.shields.io/github/issues/Rohit19060/JSON-to-Firebase?label=Issues&logo=Github&style=flat-square" alt="JSON to Firebase Issues"/>
+</a>
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/pulls" target="_blank" title="Pull Requests">
+<img src="https://img.shields.io/github/issues-pr/Rohit19060/JSON-to-Firebase?label=Pull%20Requests&logo=Github&style=flat-square" alt="JSON to Firebase Pull Requests"/>
+</a>
+<a href="https://github.com/Rohit19060/JSON-to-Firebase" target="_blank" title="Repo Size">
+<img src="https://img.shields.io/github/repo-size/Rohit19060/JSON-to-Firebase?label=Repo%20Size&logo=Github&style=flat-square" alt="JSON to Firebase Repo Size"/>
+</a>
+<a href="https://discord.gg/2wpHNSjwm2" target="_blank" title="Join Community">
+<img src="https://img.shields.io/discord/737854816402800690?color=%236d82cb&label=Join%20Community&logo=discord&logoColor=%23FFFFFF&style=flat-square" alt="Join discord community for JSON to Firebase"/>
+</a>
+</p>
 
-- [Repo](https://github.com/Rohit19060/JSON-to-Firebase "JSON to Firebase")
+<h2 align="center">🌐 Links 🌐</h2>
+<p align="center">
+    <a href="https://github.com/Rohit19060/JSON-to-Firebase" title="JSON to Firebase Repo">📂 Repo</a>
+    ·
+    <a href="https://rohit19060.github.io/JSON-to-Firebase/" title="Visit">✨ Live View</a>
+    ·
+    <a href="https://github.com/Rohit19060/JSON-to-Firebase/issues/new/choose" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
+</p>
 
-- [Live](https://Rohit19060.github.io/JSON-to-Firebase/ "Live View")
+## 🚀 Features
 
-- [Bugs](https://github.com/Rohit19060/JSON-to-Firebase/issues "Issues Page")
+- **Works directly no extra work needed**
 
-## Running
+- **Add Your Project details and Columns**
+
+## 🦋 Prerequisite
+
+- Basic Understand of [Firebase](https://firebase.google.com/ "Firebase")
+
+- Basic Understanding of JavaScript
+
+## 🛠️ Installation Steps
+
+1. Clone the repository
+
+```Bash
+git clone https://github.com/Rohit19060/JSON-to-Firebase.git
+```
+
+2. Change the working directory
+
+```Bash
+cd JSON-to-Firebase
+```
+
+3. Add Project details and JSON keys
+
+4. Run the app by opening Index.html
+
+**🎇 You are Ready to Go!**
+
+## ❗ Working
 
 For running this app first you need to change the `Data.json` file to your file after that I'm sure you will have different column names so you need to make the change according to that. There are comments provided where you should make the change. You also need a firebase Project and web app configuration.
 
@@ -20,28 +81,50 @@ For running this app first you need to change the `Data.json` file to your file 
 
 > Step 3 - Change columns names, collection name, and field names as well
 
-## Built With
+## 👷 Built with
 
-- Firebase
-- JSON
-- Jquery
-- HTML
-- JavaScript
+- [HTML](https://youtu.be/JHv2jmnrLlA "HTML - First Step Towards Web Development"): For Creating Markup
 
-## Future Updates
+- [CSS](https://youtu.be/d1tP7ow7HbQ "CSS - Second Step Towards Web Development"): For Designing
 
-- [x] As per Request
+- JavaScript: For Writing scripts to send JSON data to [Firebase](https://firebase.google.com/ "Firebase")
 
-## Author
+- [Firebase](https://firebase.google.com/ "Firebase")
+
+## 📂 Directory Structure
+
+> [`index.html`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/index.html "JSON to Firebase"): Main Entry file that will execute the script and show the JSON data.
+
+> [`jquery.js`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/jquery.js "jQuery"): For making things simple I'm using jquery
+
+> [`Data.json`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/Data.json "Data"): Data file in JSON format, contains the data that gone be upload on [Firebase](https://firebase.google.com/ "Firebase")
+
+## 🎊 Future Updates
+
+- [ ] Add GUI
+
+- [ ] More Dynamic way
+
+## 🧑🏻 Author
 
 **Rohit Jain**
 
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20JSONtoFirebase "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
+- 🌌 [Profile](https://github.com/rohit19060 "Rohit Jain")
 
-## 🤝 Support
+- 🏮 [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20JSON%20to%20Firebase "Hi!")
 
-Contributions, issues, and feature requests are welcome!
+- 🦁 [Website](https://kingtechnologies.in "Welcome")
 
-Give a ⭐️ if you like this project!
+<h2 align="center">🤝 Support</h2>
+
+<h3 align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow" title="GitHub Flow">GitHub Flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</h3>
+
+<h3 align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</h3>
+<h3 align="center">💰 Donations Links</h3>
+<p align="center">
+<a href="https://www.paypal.me/kingrohitJ" target="_blank" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/>
+<a href="https://www.buymeacoffee.com/rohitjain" target="Buy me a Coffee/" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/>
+<a href="https://ko-fi.com/rohitjain" target="_blank" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
+</p>
+
+<p align="center">Made with JavaScript & ❤️ in India</p>
