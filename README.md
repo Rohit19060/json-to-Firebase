@@ -1,31 +1,31 @@
 <p align="center">
-  <a href="https://github.com/Rohit19060/JSON-to-Firebase" title="JSON to Firebase">
-    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="JSON to Firebase" />
+  <a href="https://rohit19060.github.io/JSON-to-Firebase/" title="JSON to Firebase">
+    <img src="https://kingtechnologies.in/assets/images/logo.png" width="80px" alt="JSON to Firebase"/>
   </a>
 </p>
 <h1 align="center">🌟 JSON to Firebase 🌟</h1>
 <p align="center">API for Uploading Json Data to Firebase</p>
 
 <p align="center">
-<a href="https://github.com/Rohit19060/JSON-to-Firebase/blob/master/LICENSE" target="_blank" title="License">
-<img src="https://img.shields.io/github/license/Rohit19060/JSON-to-Firebase?label=License&logo=Github&style=flat-square" alt="JSON to Firebase License" />
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/blob/master/LICENSE" title="License">
+<img src="https://img.shields.io/github/license/Rohit19060/JSON-to-Firebase?label=License&logo=Github&style=flat-square" alt="JSON to Firebase License"/>
 </a>
-<a href="https://github.com/Rohit19060/JSON-to-Firebase/fork" target="_blank" title="Forks">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/fork" title="Forks">
 <img src="https://img.shields.io/github/forks/Rohit19060/JSON-to-Firebase?label=Forks&logo=Github&style=flat-square" alt="JSON to Firebase Forks"/>
 </a>
-<a href="https://github.com/Rohit19060/JSON-to-Firebase/stargazers" target="_blank" title="Stars">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/stargazers" title="Stars">
 <img src="https://img.shields.io/github/stars/Rohit19060/JSON-to-Firebase?label=Stars&logo=Github&style=flat-square" alt="JSON to Firebase Stars"/>
 </a>
-<a href="https://github.com/Rohit19060/JSON-to-Firebase/issues" target="_blank" title="Issues">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/issues" title="Issues">
 <img src="https://img.shields.io/github/issues/Rohit19060/JSON-to-Firebase?label=Issues&logo=Github&style=flat-square" alt="JSON to Firebase Issues"/>
 </a>
-<a href="https://github.com/Rohit19060/JSON-to-Firebase/pulls" target="_blank" title="Pull Requests">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase/pulls" title="Pull Requests">
 <img src="https://img.shields.io/github/issues-pr/Rohit19060/JSON-to-Firebase?label=Pull%20Requests&logo=Github&style=flat-square" alt="JSON to Firebase Pull Requests"/>
 </a>
-<a href="https://github.com/Rohit19060/JSON-to-Firebase" target="_blank" title="Repo Size">
+<a href="https://github.com/Rohit19060/JSON-to-Firebase" title="Repo Size">
 <img src="https://img.shields.io/github/repo-size/Rohit19060/JSON-to-Firebase?label=Repo%20Size&logo=Github&style=flat-square" alt="JSON to Firebase Repo Size"/>
 </a>
-<a href="https://discord.gg/2wpHNSjwm2" target="_blank" title="Join Community">
+<a href="https://discord.gg/2wpHNSjwm2" title="Join King Tech's Community">
 <img src="https://img.shields.io/discord/737854816402800690?color=%236d82cb&label=Join%20Community&logo=discord&logoColor=%23FFFFFF&style=flat-square" alt="Join discord community for JSON to Firebase"/>
 </a>
 </p>
@@ -47,7 +47,7 @@
 
 ## 🦋 Prerequisite
 
-- Basic Understand of [Firebase](https://firebase.google.com/ "Firebase")
+- Basic Understanding of [Firebase](https://firebase.google.com/ "Firebase")
 
 - Basic Understanding of JavaScript
 
@@ -109,7 +109,7 @@ For running this app first you need to change the `Data.json` file to your file 
 
 **Rohit Jain**
 
-- 🌌 [Profile](https://github.com/rohit19060 "Rohit Jain")
+- 🌌 [Profile](https://github.com/Rohit19060 "Rohit Jain")
 
 - 🏮 [Email](mailto:rohitjain19060@gmail.com?subject=Hi%20from%20JSON%20to%20Firebase "Hi!")
 
@@ -117,14 +117,14 @@ For running this app first you need to change the `Data.json` file to your file 
 
 <h2 align="center">🤝 Support</h2>
 
-<h3 align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow" title="GitHub Flow">GitHub Flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</h3>
+<h3 align="center">🎀 Contributions (<a href="https://guides.github.com/introduction/flow"  title="GitHub flow">GitHub Flow</a>), 🔥 issues, and 🥮 feature requests are most welcome!</h3>
 
 <h3 align="center">💙 If you like this project, Give it a ⭐ and Share it with friends!</h3>
 <h3 align="center">💰 Donations Links</h3>
 <p align="center">
-<a href="https://www.paypal.me/kingrohitJ" target="_blank" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/>
-<a href="https://www.buymeacoffee.com/rohitjain" target="Buy me a Coffee/" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/>
-<a href="https://ko-fi.com/rohitjain" target="_blank" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
+<a href="https://www.paypal.me/kingrohitJ" title="PayPal"><img src="https://kingtechnologies.in/assets/images/paypal.png" alt="PayPal"/></a>
+<a href="https://www.buymeacoffee.com/rohitjain" title="Buy me a Coffee"><img src="https://kingtechnologies.in/assets/images/coffee.png" alt="Buy me a Coffee"/></a>
+<a href="https://ko-fi.com/rohitjain" title="Ko-fi"><img src="https://kingtechnologies.in/assets/images/kofi.png" alt="Ko-fi"/></a>
 </p>
 
 <p align="center">Made with JavaScript & ❤️ in India</p>
