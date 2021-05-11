@@ -93,11 +93,11 @@ For running this app first you need to change the `Data.json` file to your file 
 
 ## 📂 Directory Structure
 
-> [`index.html`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/index.html "JSON to Firebase"): Main Entry file that will execute the script and show the JSON data.
+> [`./index.html`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/index.html "JSON to Firebase"): Main Entry file that will execute the script and show the JSON data.
 
-> [`jquery.js`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/jquery.js "jQuery"): For making things simple I'm using jquery
+> [`./jquery.js`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/jquery.js "jQuery"): For making things simple I'm using jquery
 
-> [`Data.json`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/Data.json "Data"): Data file in JSON format, contains the data that gone be upload on [Firebase](https://firebase.google.com/ "Firebase")
+> [`./Data.json`](https://github.com/Rohit19060/JSON-to-Firebase/blob/main/Data.json "Data"): Data file in JSON format, contains the data that gone be upload on [Firebase](https://firebase.google.com/ "Firebase")
 
 ## 🎊 Future Updates
 
